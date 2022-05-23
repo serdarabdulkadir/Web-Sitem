@@ -95,3 +95,105 @@ section .slide .text h3 {
     line-height: 90px;
     text-shadow: 4px 4px 0 white;
 }
+section.Hakkımda{
+    display: flex;
+    padding: 0rem  4rem;
+    gap: 4rem;
+}
+
+section.Hakkımda .about{
+    flex: 1;
+}
+
+section.Hakkımda .about h3{
+    font-weight: 900;
+    font-style: italic;
+    font-size: 80px;
+    line-height: 50px;
+    color: #bbff00;
+}
+
+section.Hakkımda .about h4{
+    font-weight: 400;
+    font-style: italic;
+    font-size: 20px;
+    color: #00FF75;
+    padding-left: 14rem;
+}
+
+section.Hakkımda .about p{
+    font-weight: 300;
+    font-size: 18px;
+    margin: 2rem 0rem;
+    line-height: 175%;
+}
+
+section.Hakkımda .form{
+    background: rgb(189, 255, 0, .8);
+    width: 540px;
+    border-radius: 12px;
+    height:auto;
+    overflow: hidden;
+}
+
+section.Hakkımda .form .title{
+    height: 80px;
+    background-color: #BDFF00;
+    padding: 1.2rem;
+}
+
+
+
+section.Hakkımda .form .title h3{
+    font-size: 34px;
+    font-weight: 600;
+    font-style: normal;
+    color: #010000;
+}
+
+section.Hakkımda .form .body .row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 500px;
+    padding: 1rem;
+}
+
+section.Hakkımda .form .body .col{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+    padding: 0rem .5rem;
+}
+
+section.Hakkımda .form .body .formgrup{
+    display: flex;
+    flex-direction: column;
+    margin: 1rem rem;
+}
+
+section.Hakkımda .form .body .formgrup input{
+    background: rgb(255, 255, 255, .7); 
+    border-radius: 9px;
+    border: none;
+    outline: none;
+    padding: .5rem;
+    min-height: 300px;
+    color: #010000;
+    font-size: 16px;
+}
+
+section.Hakkımda .form form button{
+    width: 100%;
+    padding: 1rem;
+    border: none;
+    outline: none;
+    border-radius: 12px;
+    background: #010000;
+    color: #bbff00;
+    font-style: normal;
+    margin-top: 1.5rem;
+    font-size: 20px;
+    font-weight: 800;
+}
