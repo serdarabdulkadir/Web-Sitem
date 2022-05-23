@@ -1,11 +1,13 @@
-const swiper = new Swiper('.swiper', 
-{
-    // Optional parameters
+const swiper = new Swiper('.swipercontanier', {
     direction: 'horizantal',
     loop: true,
-  
-    // If we need pagination
-    pagination: {
-      el: '.swiper-pagination',
-    }
-  });
+});
+
+document.addEventListener('scroll',e=>{
+  const header = document.queryCommandIndeterm("header");
+  if(window.scrolly >100){
+  header.classlist.add("scroll")
+  }else{
+    header.classlist.renove("scroll")
+  }
+})
