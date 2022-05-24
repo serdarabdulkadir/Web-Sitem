@@ -208,43 +208,27 @@ footer{
     background: #576143;
 }
 
-<<<<<<< HEAD
 footer .footerContainer{
-=======
-footer.div.footerContainer{
->>>>>>> 89d4c19d181d2b93e8368d368c097f5d7ef9601b
     width: 1200px;
     position: relative;
     margin: auto;
     padding: 100px 0;
 }
 
-<<<<<<< HEAD
 footer div.footerContainer div.footerBox{
-=======
-footer.div.footerContainer.div.footerBox{
->>>>>>> 89d4c19d181d2b93e8368d368c097f5d7ef9601b
     width: 400px;
     float: left;
     text-align: center;
     color: #ffffff;
 }
 
-<<<<<<< HEAD
 footer div.footerContainer div.footerBox h1{
-=======
-footer.div.footerContainer.div.footerBox h1{
->>>>>>> 89d4c19d181d2b93e8368d368c097f5d7ef9601b
     font-family: 'Courier New', Courier, monospace;
     font-size: 60px;
     margin-top: 75px;
 }
 
-<<<<<<< HEAD
 footer div .footerContainer div.footerBox h2{
-=======
-footer.div.footerContainer.div.footerBox h2{
->>>>>>> 89d4c19d181d2b93e8368d368c097f5d7ef9601b
     font-size: 30px;
     line-height: 60px;
     border-bottom: 2px solid #e74c3c;
@@ -252,44 +236,28 @@ footer.div.footerContainer.div.footerBox h2{
     margin: auto;
 }
 
-<<<<<<< HEAD
 footer div.footerContainer div.footerBox p{
-=======
-footer.div.footerContainer.div.footerBox p{
->>>>>>> 89d4c19d181d2b93e8368d368c097f5d7ef9601b
     text-align: left;
     line-height: 30px;
     width: 300px;
     margin: auto;
 }
 
-<<<<<<< HEAD
 footer div.footerContainer div.footerBox input {
-=======
-footer.div.footerContainer.div.footerBox input {
->>>>>>> 89d4c19d181d2b93e8368d368c097f5d7ef9601b
     width: 350px;
     height: 40px;
     margin-top: 20px;
 }
 
-<<<<<<< HEAD
 footer .copyright p {
-=======
-footer div.copytright {
-    width: 100%;
->>>>>>> 89d4c19d181d2b93e8368d368c097f5d7ef9601b
     background: #000000;
     color: #ffffff;
     font-size: 14px;
     padding: 10px 0;
     text-align: center;
 }
-<<<<<<< HEAD
 
 footer div.footerContainer div.footerBox img{
     width: 30px;
     margin: 10px;
 }
-=======
->>>>>>> 89d4c19d181d2b93e8368d368c097f5d7ef9601b
