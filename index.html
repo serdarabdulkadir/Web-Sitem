@@ -1,102 +1,258 @@
-<!DOCTYPE html>
-<html lang="tr">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Abdülkadir</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Judson&family=Lavishly+Yours&family=Major+Mono+Display&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https: //fonts.googleapis.com/css2? family= Dancing+Script & display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>    
-    <link rel="stylesheet" href="assets/style.css">
-    <script src="assest/script.js"></script>
-</head>
-<body>
-    <header
-        <h1>
-            <a href="#">Abdülkadir</a>
-        </h1>
-        <nav>
-           <ul>
-             <li><a href="#">İletişim</a></li>
-             <li><a href="#">Hakkımda</a></li>
-             <li class="action"><a href="#">Anasayfa</a></li>
-           </ul>
-        </nav>
-    </header>
-    <section class="Anasayfa">
-        <div class="detel">
-            <div class="detel">
-                <div class="text">
-                   <h2>ABDÜLKADİR</h2>
-                   <h3>SERDAR</h3>
-                   <span></span><p>Robotekno 1.sınıfta öğrenciyim,</p></span>
-                   <p>Web tasarım yapıyorum.</p>
-                   <div class="text">
-                </div> 
-            </div>
-            <div class="images">
-                <img src="images/İmages...jpeg" alt=""></img>
-            </div>
-        </div>
-    </section>
-    <section class="Hakkımda">
-       <div class="about">
-            <h4>HOŞ GELDİNİZ...</h4>
-            <h3>HAKKIMDA</h3>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id laboriosam magnam quod itaque debitis totam numquam ullam eum dolores, quo, facilis perferendis maiores illum pariatur atque enim. Inventore, natus enim.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat, temporibus? Soluta, modi cumque magni minima delectus aut molestiae in unde laudantium praesentium vitae quae cupiditate autem sed blanditiis? Itaque, odio!</p>
-            <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, laboriosam quas magnam porro fuga error a eveniet in adipisci autem quaerat, doloribus nobis perspiciatis facilis ipsam corrupti facere. Assumenda, asperiores.</P>
-       </div>
-       <div class="form">
-            <div class="title">
-                <h3>Benimle önerilerinizi paylaşın...</h3>
-            </div>
-            <div class="body">
-                <form action="" class="row">
-                    <div class="col">
-                        <div class="formgrup">
-                            <label for="your feedback">Görüşleriniz...</label>
-                            <input type="text" name="" id="your feedback">
-                        </div>
-                    </div>
-                    <br>
-                    <button>GÖNDER</button>
-                </form>
-            </div>
-       </div>
-    </section>
-    <footer>
-        <div id="footercontainer">
-            <div class="footerBox">
-              <h1>Abdülkadir</h1>
-              <a href=""><img src="images/instagram (1).png"></a>
-              <a href=""><img src="images/linkedin.png"></a>
-              <a href=""><img src="images/twitter.png"></a>
-              <a href=""><img src="images/facebook (1).png"></a>
-            </div>
-            <div class="footerBox">
-              <h2>BİZEULAŞIN</h2>
-              <p><span style="color: #BBFF00;">Tel</span>:0 536 248 94 51</p>
-              <p><span style="color: #BBFF00;">Email</span>:codergenc044@gmail.com</p>
-              <form>
-                  <input type="email" name="email" placeholder="Email Adresinizi Giriniz" required><br>
-                  <input type="submit" value="ABONE OL" style="background: #BBFF00; cursor: pointer;">
-              </form>
-          </div>
-          <div class="footerBox">
-              <h2>ABONE AL</h2>
-              <p>Sitemizin yeniiklerinden ve kanalımızın videolarından haberdar olmak istiyorsanız email adresinizi girmeniz yeterli olacaktır.</p>
-          </div>
-        </div>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Major Mono Display', monospace;
+    font-family: 'Lavishly Yours';
+    font-family: 'Judson', serif;
+    text-decoration: none;
+}
 
-        <div style="clear: left;"></div>
-    </footer>
-           <br><br><br><br><br><br>
-</body>
-</html>
+body {
+    background: #999898;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0rem 2rem;
+    height: 70px;
+    background: #c4c4c473;
+    border-bottom: solid 3px #d6d6d6;
+    z-index: 5;
+    transition: backgroun-color 500ms linear;
+}
+
+.text{
+    margin-left: 5%;
+    margin-top: 10%;
+    margin: 9rem;
+}
+
+.text{
+    color: #ffff00 ;
+    font-size: 30px;
+}
+
+.text p{
+    color: #ffffff;
+    line-height: 16px;
+    padding: 1rem;
+}
+
+.text h2{
+    font-size: 76px;
+}
+
+.text h3{
+    margin: 0rem 19.6rem;
+    font-size: 30px;
+    color: #ffff00 ;
+}
+
+.images{
+    margin-left: 50%;
+    margin-top: -30%;
+}
+
+header.scroll{
+    background: rgb(c4, c4, 473, .6);
+}
+
+header h1 {
+    width: 200px;
+    height: 60px;
+    border: solid 1px;
+}
+
+header h1 a {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Judson', serif;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+}
+
+header nav ul li {
+    margin: 0rem .5rem;
+}
+
+header ul li a {
+    color: #ffff00 ;
+    font-weight: 400;
+    padding: .5rem 1rem;
+}
+
+header nav ul li a:hover,
+header nav ul li.action a {
+    background: #010000;
+    border-radius: .6rem;
+}
+
+header nav ul li.action a:hover {
+    background: rgb(128, 128, 128);
+    color: #010000;
+}
+
+section.Hakkımda{
+    display: flex;
+    padding: 0rem  4rem;
+    gap: 4rem;
+}
+
+section.Hakkımda .about{
+    flex: 1;
+}
+
+section.Hakkımda .about h3{
+    font-weight: 900;
+    font-style: italic;
+    font-size: 80px;
+    line-height: 50px;
+    color: #bbff00;
+}
+
+section.Hakkımda .about h4{
+    font-weight: 400;
+    font-style: italic;
+    font-size: 20px;
+    color: #00FF75;
+    padding-left: 14rem;
+}
+
+section.Hakkımda .about p{
+    font-weight: 300;
+    font-size: 18px;
+    margin: 2rem 0rem;
+    line-height: 175%;
+}
+
+section.Hakkımda .form{
+    background: rgb(189, 255, 0, .8);
+    width: 540px;
+    border-radius: 12px;
+    height:auto;
+    overflow: hidden;
+}
+
+section.Hakkımda .form .title{
+    height: 80px;
+    background-color: #BDFF00;
+    padding: 1.2rem;
+}
+
+section.Hakkımda .form .title h3{
+    font-size: 34px;
+    font-weight: 600;
+    font-style: normal;
+    color: #010000;
+}
+
+section.Hakkımda .form .body .row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 500px;
+    padding: 1rem;
+}
+
+section.Hakkımda .form .body .col{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+    padding: 0rem .5rem;
+}
+
+section.Hakkımda .form .body .formgrup{
+    display: flex;
+    flex-direction: column;
+    margin: 1rem rem;
+}
+
+section.Hakkımda .form .body .formgrup input{
+    background: rgb(255, 255, 255, .7); 
+    border-radius: 9px;
+    border: none;
+    outline: none;
+    padding: .5rem;
+    min-height: 300px;
+    color: #010000;
+    font-size: 16px;
+}
+
+section.Hakkımda .form form button{
+    width: 100%;
+    padding: 1.5rem;
+    border: none;
+    outline: none;
+    border-radius: 12px;
+    background: #010000;
+    color: #bbff00;
+    font-style: normal;
+    margin-top: 2rem;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+footer{
+    width: 100%;
+    position: relative;
+    background: #576143;
+}
+
+footer.div.footerContainer{
+    width: 1200px;
+    position: relative;
+    margin: auto;
+    padding: 100px 0;
+}
+
+footer.div.footerContainer.div.footerBox{
+    width: 400px;
+    float: left;
+    text-align: center;
+    color: #ffffff;
+}
+
+footer.div.footerContainer.div.footerBox h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 60px;
+    margin-top: 75px;
+}
+
+footer.div.footerContainer.div.footerBox h2{
+    font-size: 30px;
+    line-height: 60px;
+    border-bottom: 2px solid #e74c3c;
+    width: 300px;
+    margin: auto;
+}
+
+footer.div.footerContainer.div.footerBox p{
+    text-align: left;
+    line-height: 30px;
+    width: 300px;
+    margin: auto;
+}
+
+footer.div.footerContainer.div.footerBox input {
+    width: 350px;
+    height: 40px;
+    margin-top: 20px;
+}
+
+footer div.copytright {
+    width: 100%;
+    background: #000000;
+    color: #ffffff;
+    font-size: 14px;
+    padding: 10px 0;
+    text-align: center;
+}
