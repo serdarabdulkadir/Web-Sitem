@@ -1,56 +1,120 @@
 <!DOCTYPE html>
 <html lang="tr">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Abdülkadir</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Judson&family=Lavishly+Yours&family=Major+Mono+Display&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>    
+    <link
+        href="https://fonts.googleapis.com/css2?family=Judson&family=Lavishly+Yours&family=Major+Mono+Display&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https: //fonts.googleapis.com/css2? family= Dancing+Script & display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
     <link rel="stylesheet" href="assets/style.css">
+    <script src="assest/script.js"></script>
 </head>
-<body class="Anasayfa">
+
+<body>
     <header>
-        <div>
-            <h1>
-                <a href="#">ABDÜLKADİR</a>
-            </h1>
-        </div>
+        <a href="#">Abdülkadir</a>
+        </h1>
         <nav>
-           <ul>
-            <li class="action"><a href="#">Anasayfa</a></li>
-            <li><a href="#">İletişim</a></li>
-            <li><a href="#">Hakkımda</a></li>
-           </ul>
+            <ul>
+                <li><a href="#contact">İletişim</a></li>
+                <li><a href="#about">Hakkımda</a></li>
+                <li class="action"><a href="#home">Anasayfa</a></li>
+            </ul>
         </nav>
     </header>
-    <section class="Hakkımda">
-        <div class="swiper-continer">
-            <div class="swiper-slide">
-                 <h2>ABDÜLKADİR</h2>
-                 <h3>SERDAR</h3>
-                 <img src="images/İmages.jpeg" alt="">
-               <div class="text">
-               </div>
+    <br><br>
+    <section class="Anasayfa" id="home">
+        <div class="detel">
+            <div class="detel">
+                <div class="text">
+                    <h2>ABDÜLKADİR</h2>
+                    <h3>SERDAR</h3>
+                    <span></span>
+                    <p>Robotekno 1.sınıfta öğrenciyim,</p></span>
+                    <p>Web tasarım yapıyorum.</p>
+                    <div class="text">
+                    </div>
+                </div>
+                <div class="images">
+                    <img src="images/İmages...jpeg" alt=""></img>
+                </div>
             </div>
-            <div class="swiper-pagination"></div>
+    </section>
+    <br><br>
+    <section class="Hakkımda" id="about">
+        <div class="about">
+            <h4>HOŞ GELDİNİZ...</h4>
+            <h3>HAKKIMDA</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id laboriosam magnam quod itaque debitis totam
+                numquam ullam eum dolores, quo, facilis perferendis maiores illum pariatur atque enim. Inventore, natus
+                enim.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat, temporibus? Soluta, modi cumque magni
+                minima delectus aut molestiae in unde laudantium praesentium vitae quae cupiditate autem sed blanditiis?
+                Itaque, odio!</p>
+            <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, laboriosam quas magnam porro fuga
+                error a eveniet in adipisci autem quaerat, doloribus nobis perspiciatis facilis ipsam corrupti facere.
+                Assumenda, asperiores.</P>
+        </div>
+        <br><br>
+        <div class="form" id="contact">
+            <div class="title">
+                <h3>Benimle önerilerinizi paylaşın...</h3>
+            </div>
+            <div class="body">
+                <form action="" class="row">
+                    <div class="col">
+                        <div class="formgrup">
+                            <label for="your feedback">Görüşleriniz...</label>
+                            <input type="text" name="" id="your feedback">
+                        </div>
+                    </div>
+                    <br>
+                    <button>GÖNDER</button>
+                </form>
+            </div>
         </div>
     </section>
-    <section class="welkam">
-        700px
-    </section>
-    <section class="contact">
-        200px
-    </section>
+    <br><br>
     <footer>
-        400px
+        <div class="footerContainer">
+            <div class="footerBox">
+                <h1>Abdülkadir</h1>
+                <a href="#"><img src="images/instagram (1).png"></a>
+                <a href="#"><img src="images/linkedin.png"></a>
+                <a href="#"><img src="images/twitter.png"></a>
+                <a href="#"><img src="images/facebook (1).png"></a>
+            </div>
+            <div class="footerBox">
+                <h2>BANA ULAŞIN</h2>
+                <p><span style="color: #BBFF00;">Tel:0 536 248 94 51</span></p>
+                <p><span style="color: #BBFF00;">Email:codergenc044@gmail.com</span></p>
+            </div>
+            <div class="footerBox">
+                <h2>ABONE OL</h2>
+                <p><span style="color:#BBFF00;"> Yeniklerinden ve kanalımızın videolarından haberdar olmak istiyorsanız
+                        email adresinizi girmeniz yeterli olacaktır.</span></p>
+                <form>
+                    <input type="email" name="email" placeholder="Email Adresinizi Giriniz" required><br>
+                    <input type="submit" value="ABONE OL" style="background: #BBFF00; cursor: pointer;">
+                </form>
+            </div>
+            <div style="clear: left;"></div>
+        </div>
+        <div class="copyright">
+            <p>&2022 - bu web sitesi Genç Coder'ın portfolio sitesidir.</p>
+        </div>
     </footer>
-    <section class="copy">
-        90px
-    </section>
-    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
-    <script src="assest/script.js"></script>
 </body>
+<script src="./assets/scritp.js"></script>
+
 </html>

@@ -6,10 +6,11 @@
     font-family: 'Lavishly Yours';
     font-family: 'Judson', serif;
     text-decoration: none;
+    scroll-behavior: smooth;
 }
 
 body {
-    background: #151515;
+    background: #999898;
 }
 
 header {
@@ -20,6 +21,44 @@ header {
     height: 70px;
     background: #c4c4c473;
     border-bottom: solid 3px #d6d6d6;
+    z-index: 5;
+    transition: backgroun-color 500ms linear;
+}
+
+.text{
+    margin-left: 5%;
+    margin-top: 10%;
+    margin: 9rem;
+}
+
+.text{
+    color: #ffff00 ;
+    font-size: 30px;
+}
+
+.text p{
+    color: #ffffff;
+    line-height: 16px;
+    padding: 1rem;
+}
+
+.text h2{
+    font-size: 76px;
+}
+
+.text h3{
+    margin: 0rem 19.6rem;
+    font-size: 30px;
+    color: #ffff00 ;
+}
+
+.images{
+    margin-left: 50%;
+    margin-top: -30%;
+}
+
+header.scroll{
+    background: rgb(c4, c4, 473, .6);
 }
 
 header h1 {
@@ -46,7 +85,7 @@ header nav ul li {
 }
 
 header ul li a {
-    color: rgb(170, 255, 0);
+    color: #ffff00 ;
     font-weight: 400;
     padding: .5rem 1rem;
 }
@@ -62,36 +101,163 @@ header nav ul li.action a:hover {
     color: #010000;
 }
 
-.swiper {
-    width: 100%;
-    height: 550px;
+section.Hakkımda{
+    display: flex;
+    padding: 0rem  4rem;
+    gap: 4rem;
 }
 
-section .slide {
-    height: 550px;
-    width: 100%;
-    position: relative;
+section.Hakkımda .about{
+    flex: 1;
 }
 
-section .slide .text {
-    position: absolute;
-    top: 100px;
-    left: 100px;
-    text-align: right;
-    transform: translate(-25%, -50%);
-}
-
-section .slide .text h2 {
-    font-weight: 600;
-    font-style: italic;
-    color: #BDFF00;
-}
-
-section .slide .text h3 {
+section.Hakkımda .about h3{
     font-weight: 900;
     font-style: italic;
+    font-size: 80px;
+    line-height: 50px;
     color: #bbff00;
-    font-size: 144px;
-    line-height: 90px;
-    text-shadow: 4px 4px 0 white;
+}
+
+section.Hakkımda .about h4{
+    font-weight: 400;
+    font-style: italic;
+    font-size: 20px;
+    color: #00FF75;
+    padding-left: 14rem;
+}
+
+section.Hakkımda .about p{
+    font-weight: 300;
+    font-size: 18px;
+    margin: 2rem 0rem;
+    line-height: 175%;
+}
+
+section.Hakkımda .form{
+    background: rgb(189, 255, 0, .8);
+    width: 540px;
+    border-radius: 12px;
+    height:auto;
+    overflow: hidden;
+}
+
+section.Hakkımda .form .title{
+    height: 80px;
+    background-color: #BDFF00;
+    padding: 1.2rem;
+}
+
+section.Hakkımda .form .title h3{
+    font-size: 34px;
+    font-weight: 600;
+    font-style: normal;
+    color: #010000;
+}
+
+section.Hakkımda .form .body .row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 500px;
+    padding: 1rem;
+}
+
+section.Hakkımda .form .body .col{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+    padding: 0rem .5rem;
+}
+
+section.Hakkımda .form .body .formgrup{
+    display: flex;
+    flex-direction: column;
+    margin: 1rem rem;
+}
+
+section.Hakkımda .form .body .formgrup input{
+    background: rgb(255, 255, 255, .7); 
+    border-radius: 9px;
+    border: none;
+    outline: none;
+    padding: .5rem;
+    min-height: 300px;
+    color: #010000;
+    font-size: 16px;
+}
+
+section.Hakkımda .form form button{
+    width: 100%;
+    padding: 1.5rem;
+    border: none;
+    outline: none;
+    border-radius: 12px;
+    background: #010000;
+    color: #bbff00;
+    font-style: normal;
+    margin-top: 2rem;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+footer{
+    width: 100%;
+    position: relative;
+    background: #576143;
+}
+
+footer .footerContainer{
+    width: 1200px;
+    position: relative;
+    margin: auto;
+    padding: 100px 0;
+}
+
+footer div.footerContainer div.footerBox{
+    width: 400px;
+    float: left;
+    text-align: center;
+    color: #ffffff;
+}
+
+footer div.footerContainer div.footerBox h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 60px;
+    margin-top: 75px;
+}
+
+footer div .footerContainer div.footerBox h2{
+    font-size: 30px;
+    line-height: 60px;
+    border-bottom: 2px solid #e74c3c;
+    width: 300px;
+    margin: auto;
+}
+
+footer div.footerContainer div.footerBox p{
+    text-align: left;
+    line-height: 30px;
+    width: 300px;
+    margin: auto;
+}
+
+footer div.footerContainer div.footerBox input {
+    width: 350px;
+    height: 40px;
+    margin-top: 20px;
+}
+
+footer .copyright p {
+    background: #000000;
+    color: #ffffff;
+    font-size: 14px;
+    padding: 10px 0;
+    text-align: center;
+}
+
+footer div.footerContainer div.footerBox img{
+    width: 30px;
+    margin: 10px;
 }
